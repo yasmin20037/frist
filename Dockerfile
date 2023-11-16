@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY Dockerfile.java .
+COPY yasmin.java .
 
-RUN javac Dockerfile.java 
+RUN javac yasmin.java 
 
-CMD java Dockerfile
+CMD java yasmin

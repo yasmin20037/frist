@@ -1,4 +1,4 @@
-public class task1 {
+public class yasmin {
 
 
  public static void main(String [] args)
