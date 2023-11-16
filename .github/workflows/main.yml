@@ -18,13 +18,14 @@ jobs:
 
 
     steps:
-      - name: 'Testing Github action'
-        run: pwd
+      - uses: action/chechout@v3
+      - name: " Login to Docker hub"
+        run: docker login --username yasminsami20 --password dckr_pat_B9TYY95Nk6SyuP_Pg2RgzqHgJ0g
+
+
+
 
 
         
-  
-      - name: 'Testing printing'
-        run: echo Yasmin
-    
+
     
