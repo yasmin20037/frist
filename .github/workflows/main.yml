@@ -11,9 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-
     steps:
-      - uses: actions/checkout@v3 
+      - uses: actions/checkout@v3
 
       - name: "LOGIN to Docker hub"
-       run: docker login --username yasminsami20 --password dckr_pat_B9TYY95Nk6SyuP_Pg2RgzqHgJ0g
+        run: docker login --username yasminsami20 --password dckr_pat_B9TYY95Nk6SyuP_Pg2RgzqHgJ0g
