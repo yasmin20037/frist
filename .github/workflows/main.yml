@@ -18,8 +18,8 @@ jobs:
         run: docker login --username ${{ secrets.DOCKER_USERNAMEE }}  --password ${{ secrets.DOCKER_TOCCC }}
          
       - name: "Bulding docker image"
-        run: docker build -t ${{ secrets.DOCKER_DOCKER_USERNAMEE}}/myimage . 
+        run: docker build -t ${{ secrets.DOCKER_USERNAMEE}}/myimage . 
 
       - name: "pushing to Docker hub" 
-        run: docker push ${{ secrets.DOCKER_DOCKER_USERNAMEE }}/myimage
+        run: docker push ${{ secrets.DOCKER_USERNAMEE }}/myimage
 
